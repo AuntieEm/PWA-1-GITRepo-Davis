@@ -161,7 +161,9 @@ console.log('------ numbers ----------');
     console.log("order of operations: ", num);
 
     //ex 8: modulo example
-
+    var num1 = 10;
+    var num2 = 3;
+    console.log("Remainder: ", num1%num2);
 
 // arrays: (definition, indexing, getter/setter)
 console.log('------ arrays ----------');
