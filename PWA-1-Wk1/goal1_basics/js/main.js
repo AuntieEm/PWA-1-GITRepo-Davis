@@ -97,7 +97,9 @@ console.log('------ strings ----------');
     console.log("Example 4: ", testString);
 
     //this example shows that all the "phase" vars above were overwritten
-
+    var num = 3;
+    var testString = 'he\'s in PWA1 ' + num;
+    console.log("Example 5: ", testString);
 
 
 // numbers (definition, concatenation +, math, numbers & strings)
