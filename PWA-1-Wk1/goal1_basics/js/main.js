@@ -92,9 +92,9 @@ console.log('------ strings ----------');
     var testString = 'He\'s in PWA1';
     console.log("Example 3: ", testString);
 
-
     //string w/ escape characters and mixed single/double quotes
-
+    var testString = 'he\'s in ' + '"PWA1"';
+    console.log("Example 4: ", testString);
 
     //this example shows that all the "phase" vars above were overwritten
 
