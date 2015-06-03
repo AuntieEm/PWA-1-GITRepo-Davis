@@ -71,6 +71,8 @@ console.log('------ variables ----------');
 
     //example 4: declaring multiple variables at once w/ same value
 
+    var a = b = c = d = 10;
+    console.log ("a: ", a + " / b: ", b = " / c: ", c + " / d: ",d);
 
 
 // string (definition, concatenation, escape character)
