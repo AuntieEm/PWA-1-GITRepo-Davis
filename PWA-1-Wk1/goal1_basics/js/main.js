@@ -78,9 +78,14 @@ console.log('------ variables ----------');
 // string (definition, concatenation, escape character)
 console.log('------ strings ----------');
 
-    //basic string
     var name = "James Bond";
     console.log(name);
+
+    //basic string
+    var testString = "He's in PWA1";
+    console.log("Example 1: ", testString);
+
+
 
 
     //string w/ escape characters " \ "
