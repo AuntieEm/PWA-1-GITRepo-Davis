@@ -204,15 +204,19 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 console.log('------ MORE Numbers ----------');
 
-// Use toExponential() console.log num in exponential notation with two decimals.
+    var num = 457896;
+    var dec = 33.123456;
 
+// Use toExponential() console.log num in exponential notation with two decimals.
+    console.log(num.toExponential(2));
 
 // Use toPrecision() console.log dec as four numbers.
+    console.log(dec.toPrecision(4));
 
 
 //STUDENT ACTIVITY 4:
 //What method would you use to console.log the variable dec with two decimals.
-
+    
 
 // Use toString() to console.log the type of num.
 
