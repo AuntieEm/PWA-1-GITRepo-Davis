@@ -1,7 +1,7 @@
 /*
-     Name:
-     Date:
-     Class & Section:  PWA1-####
+     Name: Emily Davis
+     Date: June 3, 2015
+     Class & Section:  PWA1-c201506
      Comments: "Goal 2: JavaScript Practice"
  */
 
@@ -156,22 +156,22 @@ console.log('------ MORE Strings ----------');
 var str1 = 'I love JavaScript! ';
 var str2 = 'JavaScript loves me!';
 var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    //use charAt() to console log the 'v' in str1.
 
-// Use charAt() to console.log the 'v' in str1.
+    console.log(str1.charAt(4));
 
+    //use indexOf() to console log the index of 'm' in str2.
+    console.log(str2.indexOf('m'));
 
-// Use indexOf() to console.log the index of 'm' in str2.
+    //use lastIndexOf() to console log the last 'a' in str1.
+    console.log(str1.lastIndexOf('a'));
 
+    //use length to console log the length in str1.
+    console.log(str1.length);
 
-// Use lastIndexOf() to console.log the last 'a' in str1.
-
-
-// Use length to console.log the length in str1.
-
-
-// Use split() to console.log an array of the ABC's using the abc variable.
-// EX: ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-
+    // Use split() to console.log an array of the ABC's using the abc variable.
+    // EX: ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+    console.log(abc.split(''));
 
 //STUDENT ACTIVITY 1:
 // Use substr() to console.log 'JavaScript!' from str1.

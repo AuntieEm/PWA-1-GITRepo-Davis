@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3af842bf-d32c-4c3c-91bb-094ec1b46429" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PWA-1-Wk1/goal1_basics/js/main.js" afterPath="$PROJECT_DIR$/PWA-1-Wk1/goal1_basics/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PWA-1-Wk1/goal2_practice/index.html" afterPath="$PROJECT_DIR$/PWA-1-Wk1/goal2_practice/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PWA-1-Wk1/goal2_practice/js/main.js" afterPath="$PROJECT_DIR$/PWA-1-Wk1/goal2_practice/js/main.js" />
     </list>
     <ignored path="PWA-1-GITRepo-Davis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,24 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PWA-1-Wk1/goal1_basics/index.html">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PWA-1-Wk1/goal2_practice/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="300">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-              <folding />
+            <state vertical-scroll-proportion="0.7276995" vertical-offset="2130" max-vertical-offset="8055">
+              <caret line="173" column="31" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PWA-1-Wk1/goal1_basics/js/main.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PWA-1-Wk1/goal2_practice/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3051643" vertical-offset="3120" max-vertical-offset="11985">
-              <caret line="221" column="55" selection-start-line="219" selection-start-column="4" selection-end-line="221" selection-end-column="55" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="270">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,6 +59,8 @@
       <list>
         <option value="$PROJECT_DIR$/PWA-1-Wk1/goal1_basics/index.html" />
         <option value="$PROJECT_DIR$/PWA-1-Wk1/goal1_basics/js/main.js" />
+        <option value="$PROJECT_DIR$/PWA-1-Wk1/goal2_practice/index.html" />
+        <option value="$PROJECT_DIR$/PWA-1-Wk1/goal2_practice/js/main.js" />
       </list>
     </option>
   </component>
@@ -239,16 +242,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PWA-1-Wk1/goal1_basics/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="300">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0955414" vertical-offset="0" max-vertical-offset="628">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PWA-1-Wk1/goal2_practice/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="270">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PWA-1-Wk1/goal1_basics/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3051643" vertical-offset="3120" max-vertical-offset="11985">
-          <caret line="221" column="55" selection-start-line="219" selection-start-column="4" selection-end-line="221" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.07042254" vertical-offset="0" max-vertical-offset="11985">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PWA-1-Wk1/goal2_practice/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7276995" vertical-offset="2130" max-vertical-offset="8055">
+          <caret line="173" column="31" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
