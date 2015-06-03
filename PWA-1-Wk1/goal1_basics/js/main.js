@@ -105,10 +105,16 @@ console.log('------ strings ----------');
 // numbers (definition, concatenation +, math, numbers & strings)
 console.log('------ numbers ----------');
 
+    //var y=123e5;    //12300000
+   // var z=123e-5;   //0.00123
+
     // arithmetic operators:  +, -, /, *, % (modulo)
 
 
     //basic math
+    var counter = 10;
+    console.log("basic math: ", counter + 1);
+    console.log("basic math: ", counter);
 
 
     //quick operations with "assignment operator" +=, -=, *=, /=, %=
