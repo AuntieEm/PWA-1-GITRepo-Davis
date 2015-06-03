@@ -184,12 +184,16 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 //STUDENT ACTIVITY 2:
 // Use substring() to console.log 'JavaScript' from str2.
+     console.log(str2.substring(0,10));
 
 
 //STUDENT ACTIVITY 3:
 // 1. Use toLowerCase() to console.log the str1 all in lowercase letters.
 // 2. Use toUpperCase() to console.log the str1 all in uppercase letters.
+    console.log(str1.toLowerCase());
+    console.log(str1.toUpperCase());
 
+    console.log(typeof str1.toString());
 
 
 /*
