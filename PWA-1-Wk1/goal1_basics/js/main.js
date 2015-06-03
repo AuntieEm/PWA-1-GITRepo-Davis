@@ -157,7 +157,8 @@ console.log('------ numbers ----------');
     console.log("Number / Strings: ", myStr);
 
     //ex 7: order of operations: ( ), *, /, +, -
-
+    var num = 4 + (6 * 5 - 10) / 5;
+    console.log("order of operations: ", num);
 
     //ex 8: modulo example
 
