@@ -216,10 +216,10 @@ console.log('------ MORE Numbers ----------');
 
 //STUDENT ACTIVITY 4:
 //What method would you use to console.log the variable dec with two decimals.
-    
+    console.log(dec.toFixed(2));
 
 // Use toString() to console.log the type of num.
-
+    console.log(typeof num.toString());
 
 
 /*
