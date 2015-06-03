@@ -230,6 +230,13 @@ console.log('----- Student Activity 1 -----');
 console.log('----- Student Activity 2 -----');
 
 
+    var myArray = new Array();
+    myArray[0] = "baseball";
+    myArray[1] = "footbal";
+    myArray[2] = "basketball";
+
+    console.log(myArray[0] + ', ' + myArray[1] + ', ' + myArray[2]);
+
 
 
 
