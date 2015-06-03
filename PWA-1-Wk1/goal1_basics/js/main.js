@@ -241,6 +241,8 @@ console.log('----- Student Activity 2 -----');
 
 
 
+
+
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
 console.log('------ conditionals ----------');
 
@@ -275,7 +277,8 @@ console.log('------ conditionals ----------');
     - conditions can be used just about anywhere, not just in conditionals and loops
 */
 
-
+    var myVar = 5 > 3;
+    console.log("is 5 greater than 3: ", myVar);
 
 /*
      most common comparison operators:
@@ -291,7 +294,10 @@ console.log('------ conditionals ----------');
             //block of code or ‘actions’
          };
 */
-
+    if(5 > 3){
+      //execute code here.
+        console.log("'5 > 3:', True!");
+    };
 
 
 /*
@@ -305,7 +311,21 @@ console.log('------ conditionals ----------');
 */
 
     // == performs a loose check of two values
+     if ("1" == 1){
+       console.log("'1' == 1, True");
+     };
 
+    if (1 == 1){
+        console.log("1 == 1, True");
+    };
+
+    if ("1" === 1){
+        console.log("'1' === 1, False");
+    };
+
+    if ("1" !== 1){
+        console.log("'1' !== 1, True");
+    };
 
 
 /* ==============================================================
@@ -320,13 +340,80 @@ console.log('------ conditionals ----------');
  ================================================================
  */
 
+    if ("a" < "b"){
+        //TRUE: run code
+        console.log("a is less than b");
 
+    }else{
+        //FASLE: run code
+        console.log("if else: the 'IF' statement is false");
+    };
+
+    if ("a" === "b"){
+        //TRUE: run code
+        console.log("a is less than b");
+
+    }else{
+        //FASLE: run code
+        console.log("if else: the 'IF' statement is false");
+    };
 
     //if - else if - else (allows for multiple options)
+    if ("a" < "b"){
+        console.log("a is less than b");
+    }else if ("a" < "c"){
+        console.log("a is less than c");
+    }else if ("a" < "d"){
+        console.log("a is less than d");
+    }else{
+        console.log("if - else if: all others returned false");
+    };
 
+    if ("a" > "b"){
+        console.log("a is less than b");
+    }else if ("a" < "c"){
+        console.log("a is less than c");
+    }else if ("a" < "d"){
+        console.log("a is less than d");
+    }else{
+        console.log("if - else if: all others returned false");
+    };
+
+    if ("a" === "b"){
+        console.log("a is less than b");
+    }else if ("a" < "c"){
+        console.log("a is less than c");
+    }else if ("a" < "d"){
+        console.log("a is less than d");
+    }else{
+        console.log("if - else if: all others returned false");
+    };
 
 
     //nested conditional statement
+    if ("a" === "a"){
+
+        if ("b" === "b"){
+            console.log("In Nested if-else / b === b: True");
+        }else{
+            //execute block of code if the matching "IF" statement is false
+        };
+
+    }else{
+        console.log("nested conditional: 1st IF returned false");
+    };
+
+    if ("a" !== "a"){
+
+        if ("b" === "b"){
+         console.log("In Nested if-else / b === b: True");
+      }else{
+            //execute block of code if the matching "IF" statement is false
+     };
+
+    }else{
+        console.log("nested conditional: 1st IF returned false");
+    };
 
 
 
