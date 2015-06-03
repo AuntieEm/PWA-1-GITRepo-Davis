@@ -692,7 +692,17 @@ console.log('------Functions ----------');
      6.  console.log the results
  ********************************************/
 
+    var myctr = 1;
 
+    var myCounter = function(newct){
+
+        myctr += newct;
+        //myctr = myctr + newct;
+        console.log('counter = ', myctr);
+    };
+
+    myCounter(5);
+    myCounter(2);
 
 
 /*******************************************
