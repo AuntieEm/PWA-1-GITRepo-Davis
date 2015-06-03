@@ -119,7 +119,11 @@ console.log('------ numbers ----------');
 
     //quick operations with "assignment operator" +=, -=, *=, /=, %=
     //one example below, can show more examples with other assignment operators
-
+    var num1 = 10;
+    var num2 = 5;
+    num1 += num2;
+    //num1 = num1 + num2;
+    console.log("+=: ", num1);
 
     //increment or decrement numbers by 1 with ++ or --
 
