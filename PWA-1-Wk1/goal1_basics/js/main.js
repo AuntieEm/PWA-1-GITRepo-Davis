@@ -1,7 +1,7 @@
 /*
-     Name:
-     Date:
-     Class & Section:  PWA1-####
+     Name:  Emily Davis
+     Date:  June 3, 2015
+     Class & Section:  PWA1-c201506
      Comments: "Goal 1: Review of WPF"
  */
 
@@ -151,6 +151,21 @@ console.log('------ arrays ----------');
     2.  console.log the sum of all the numbers in an array
 
  ********************************************/
+
+ var my_array = [10, 50, 100, 200];
+
+function arraySum(array){
+    var total = 0;
+        len = array.length;
+    for (var i = 0; i <len; i++){
+        total += array[i];
+    }
+    return total;
+};
+
+
+console.log( arraySum( my_array ));
+
 
 
 
