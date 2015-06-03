@@ -53,6 +53,11 @@ console.log('------ variables ----------');
 
     //example 1: variables defined properly
 
+    var name = "james"
+    var course = "PWA1"
+    var month = 3;
+    console.log("name: ", name + " / course: ", course + " / month: ", + month);
+
 
     //example 2: variables not defined will = "undefined"
 
@@ -151,6 +156,7 @@ console.log('------ arrays ----------');
     2.  console.log the sum of all the numbers in an array
 
  ********************************************/
+console.log('----- Student Activity 1 -----');
 
  var my_array = [10, 50, 100, 200];
 
@@ -183,6 +189,11 @@ console.log( arraySum( my_array ));
     3. output array items using string concatenation
 
  ********************************************/
+console.log('----- Student Activity 2 -----');
+
+
+
+
 
 
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
