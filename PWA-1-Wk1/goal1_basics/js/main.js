@@ -550,6 +550,12 @@ console.log('------ conditionals ----------');
     - : = false (perform the new statement after the :)
  */
 
+    var weather = 'Sunny';
+    var mood = (weather=='Sunny' ? 'happy' : 'sad');
+    console.log("mood: ", mood);
+
+    var smile = false;
+    console.log('I am ' + ( smile === true ? 'happy' : 'sad' ) + '!!');
 
 
 /*******************************************
@@ -563,6 +569,13 @@ console.log('------ conditionals ----------');
         - else student1 = 'sad'
     4.  console.log the results
  ********************************************/
+
+    var temp = 60;
+    var weather = 'Sunny';
+    var student1 = (weather === 'Sunny' ? 'happy' : ((temp >= 80) ? 'content' : 'sad' ));
+    console.log("Nested ternary weather: ", student1);
+
+
 
 
 
