@@ -500,6 +500,34 @@ console.log('------ conditionals ----------');
  ********************************************/
 
 
+    var weather = 'Cloudy';
+    var waves = 10;
+
+    if (weather === 'Sunny') {
+        if (waves === 10) {
+            bobsMood = 'PUMPED';
+        } else if ((waves <= 9) && (waves >= 5)) {
+            Mood = 'mellow';
+        } else {
+            Mood = 'bummed';
+        }
+    }else if (weather === 'Overcast') {
+        if ((waves < 10) && (waves >= 7)) {
+            Mood = 'jackedUP';
+        } else if ((waves < 6) && (waves >= 3)) {
+            Mood = 'totally bummed';
+        } else {
+            Mood = 'not happy';
+        }
+    }else{
+        Mood = 'sad';
+    };
+
+    console.log("Bob's Mood: ", bobsMood);
+
+
+
+
 
 
 /*
