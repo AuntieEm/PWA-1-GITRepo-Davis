@@ -148,7 +148,9 @@ console.log('------ numbers ----------');
     //this decrements after it is being used as well
     console.log("counter--: ", num--);
 
-    //add a number to a string is always a string
+    //ex 5: add a number to a string is always a string
+    var myStr = "6" + 2;
+    console.log("Number + Strings: ", myStr);
 
 
     //other math operations will result in a number
