@@ -79,6 +79,8 @@ console.log('------ variables ----------');
 console.log('------ strings ----------');
 
     //basic string
+    var name = "James Bond";
+    console.log(name);
 
 
     //string w/ escape characters " \ "
