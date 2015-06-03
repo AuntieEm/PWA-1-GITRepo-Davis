@@ -152,14 +152,14 @@ console.log('------ numbers ----------');
     var myStr = "6" + 2;
     console.log("Number + Strings: ", myStr);
 
+    //ex 6: other math operations will result in a number
+    var myStr = "6" / 2;
+    console.log("Number / Strings: ", myStr);
 
-    //other math operations will result in a number
+    //ex 7: order of operations: ( ), *, /, +, -
 
 
-    //order of operations: ( ), *, /, +, -
-
-
-    //modulo example
+    //ex 8: modulo example
 
 
 // arrays: (definition, indexing, getter/setter)
