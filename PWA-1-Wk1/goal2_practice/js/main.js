@@ -175,10 +175,11 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 //STUDENT ACTIVITY 1:
 // Use substr() to console.log 'JavaScript!' from str1.
+    console.log(str1.substr(7,11));
 
 
 // Use concat() to console.log 'I love JavaScript ! JavaScript loves me!' with str1 and str2.
-
+    console.log(str1.concat(str2));
 
 
 //STUDENT ACTIVITY 2:
