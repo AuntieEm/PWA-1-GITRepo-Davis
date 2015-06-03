@@ -715,7 +715,12 @@ console.log('------Functions ----------');
     - the called function should be assigned to a variable (i.e name - see below)
  ********************************************/
 
+    var myFn = function(){
+        return 'jamesBond';
+    };
 
+    var name = myFn();
+    console.log('name: ', name);
 
     // if a return gives back no value, it instead returns “undefined”
     // this technique is commonly used to end a function early, during execution
