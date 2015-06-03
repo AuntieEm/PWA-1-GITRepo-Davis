@@ -738,7 +738,19 @@ console.log('------Functions ----------');
     4.  console.log the results
  ********************************************/
 
+    var myctr = 1;
 
+        var myCounter = function(newct){
+            //var myctr = 50;
+            myctr += newct;
+            return myctr;
+        };
+
+    var cnt = myCounter(5);
+    console.log('counter = ', cnt);
+
+    var cnt = myCounter(2);
+    console.log('counter = ', cnt);
 
 
 /*******************************************
