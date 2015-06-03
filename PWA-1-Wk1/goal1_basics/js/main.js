@@ -85,10 +85,12 @@ console.log('------ strings ----------');
     var testString = "He's in PWA1";
     console.log("Example 1: ", testString);
 
-
-
-
     //string w/ escape characters " \ "
+    var testString = "I need some \"quotes\" to be here.";
+    console.log("Example 2: ", testString);
+
+    var testString = 'He\'s in PWA1';
+    console.log("Example 3: ", testString);
 
 
     //string w/ escape characters and mixed single/double quotes
