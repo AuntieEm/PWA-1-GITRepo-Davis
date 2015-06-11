@@ -150,26 +150,27 @@ console.log('------ Debugging ----------');
 	console.log('mood: ', moodType);
 
 
-/*
+
     //Example5:
 
     var myNums = [1, 2, 3, 4, 5];
     console.log(myNums);
 
-    for (var i=10, j=myNums.length; i < j; i++){
+    for (var i=0, j=myNums.length; i < j; i++){
 
         console.log("i: " + i);
         console.log("j: " + j);
 
         if (i === 3) {
             console.log("testing out the break and it broke");
+            continue;
         };
 
-        continue;
+        //continue;
         console.log('What is at index ' + i + ' = ', myNums[i] );
     };
 
-*****************/
+
 
 /*
 	===============================================
@@ -195,6 +196,24 @@ console.log('------ Debugging ----------');
 */
     console.log('------ Try Catch ----------');
 
+    var return10 = function(){
+        return 15;
+    };
+
+    var num = return10();
+
+    try
+    {
+        if( num === "")throw "empty";
+        if( isNaN(num))throw "not a number";
+        if( num > 10)throw "too high";
+        if( num < 10)throw "too low:;"
+    }
+
+    catch(err)
+    {
+        console.log(err);
+    }
 
 /*
 	===================================================================
