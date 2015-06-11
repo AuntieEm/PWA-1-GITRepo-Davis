@@ -614,6 +614,15 @@ console.log('------ MORE Functions ----------');
 */
 console.log('------ While / Loop ----------');
 
+    var bottlesOfBeer = 99;
+
+    while(bottlesOfBeer > 0){
+        console.log(bottlesOfBeer + ' bottles of beer on the wall. ' + bottlesOfBeer + ' bottles of beer.');
+        bottlesOfBeer--;
+        console.log("Take one down. Pass it around.");
+        console.log(bottlesOfBeer + ' bottles of beer on the wall.');
+
+    };
 	
 /*
 	===============================================
