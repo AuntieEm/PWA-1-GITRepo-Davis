@@ -662,7 +662,10 @@ console.log('------For Loop ----------');
 		- an array’s numeric index begins at 0  
 		- in the example below, the last index of the array would be 4 
 			- the  .length property returns the count, which would be 5	
-	*/	
+	*/
+
+    var myNums = [1,2,3,4,5];
+    console.log('length:',myNums.length);
 
 
 	/* 
@@ -684,6 +687,14 @@ console.log('------For Loop ----------');
 			save the array length in a variable, inside the first statement
 	*/
 
+    for (var i=0; i<myNums.length; i++){
+        console.log(myNums[i]);
+    };
+
+    //more effecient
+    for (var i= 0,j=myNums.length;i<j; i++){
+        console.log(myNums[i]);
+    };
 
 	/*
 		BREAK...
@@ -693,6 +704,16 @@ console.log('------For Loop ----------');
 			break point, and perform no more iterations
 	*/
 
+    var myNums = [1,2,3,4,5];
+    for (var i= 0,j=myNums.length;i<j; i++){
+        if(i===3){
+            console.log("testing out the break and it broke");
+            break;
+        };
+        console.log('length in for loop: ', myNums[i]);
+
+
+    };
 
 
 	/*
@@ -702,6 +723,16 @@ console.log('------For Loop ----------');
 			statement will stop a loop’s current iteration, and continue 
 			on to the next iteration
 	*/
+
+    for (var i= 0,j=myNums.length;i<j; i++){
+        if(i===3){
+            console.log("testing out the break and it broke");
+            continue;
+        };
+        console.log('length in for loop: ', myNums[i]);
+
+
+    };
 
 
 /*******************************************
