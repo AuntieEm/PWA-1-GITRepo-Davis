@@ -72,6 +72,8 @@ console.log('------ Recap from the previous lecture ----------');
 
 console.log('------ Debugging ----------');
 
+
+
 /***********************
      For each of the examples below you will have to un-comment the code so the
      error in the code displays in the console.log.  You will want to determine
@@ -81,12 +83,16 @@ console.log('------ Debugging ----------');
      display.  You may want to see the error messages in Chrome and Firefox.
  ***********************/
 
- /*
+
+
+
+
+
 	//Example1
-	var name = james, course = 'PWA1, month = 3;
-	console.log ("name: ", name + " / course: ", coures + " / month: ", month)
+	var name = 'james', course = 'PWA1', month = 3;
+	console.log ("name: ", name + " / course: ", course + " / month: ", month);
 
-
+/*
     //Example2:
 	//string w/ escape charaters and mixed single/double quotes
 	var phrase = 'he's in ' + ' "PWA1' ";
