@@ -45,8 +45,8 @@
     console.log('------ Goal2: Assignment: JavaScript Practice ----------');
 
     console.log("1. avg of an array of numbers");
-    var arr = [1,2,3,4,5];
-    var avgNumbers = function(arr){
+    var arr = [];
+   function avgNumbers (arr){
         var sum = 0;
         for(var i = 0; i < arr.length; i++) {
         sum += arr[i];
@@ -54,7 +54,7 @@
         return sum/arr.length;
     };
 
-    console.log("The average is " + avgNumbers);
+    console.log("The average is " + avgNumbers(arr));
 
 
     console.log('avg number = ', avgNumbers([1,2,3,4,5]));
@@ -64,7 +64,7 @@
 
     var firstName = "James";
     var lastName = "Bond";
-       var fullName = function(firstName, lastName){
+       function fullName(firstName, lastName){
            return firstName + lastName;
        };
 
