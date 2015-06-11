@@ -98,22 +98,21 @@ console.log('------ Debugging ----------');
 	var phrase = 'he\'s in ' + ' "PWA1" ';
 	console.log("phase 4: ", phrase);
 
-
     //Example3:
 	//nested conditional statement
-	if (a === a){    //1st IF statement
+	if ("a" === "a"){    //1st IF statement
 		//execute this block of code if a is equal to a
 		
-		if (b === b){  //nested IF statement : 2nd IF statement
+		if ("b" === "b"){  //nested IF statement : 2nd IF statement
    			//execute this block of code if b is equal to b
    			console.log("In Nested if-else / b === b: True");
 		}else{       //nested ELSE statement
 			//execute block of code if the matching “IF” statement returns false
 		};
 
-	}else
+	}else{
 		//execute this block of code if the 1st “IF” statement returns false
-		console.log("nested conditional: 1st IF returned false);
+		console.log("nested conditional: 1st IF returned false");
 	};
 
 /*
