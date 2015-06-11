@@ -774,6 +774,8 @@ var cartoons = ["Superman", "Batman", "Wolverine", "Iceman"];
      12. output the array without "NEW VALUE"
 ********************************************/
 
+
+
     console.log('------ More PRACTICE ----------');
 
     var name = 'This is a nice change of pace';
