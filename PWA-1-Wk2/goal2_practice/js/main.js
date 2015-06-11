@@ -460,6 +460,48 @@ console.log('------ MORE Conditionals - Switch ----------');
 ********************************************/
 
 
+    var age = 12;
+
+    switch(age){
+        case 13:
+            console.log("Child");
+            break;
+        case 18:
+            console.log("Adult.");
+            break;
+        default:
+            console.log("No Answer.");
+            break;
+    };
+
+    var age = 13;
+
+    switch(age){
+        case 13:
+            console.log("Child");
+            break;
+        case 18:
+            console.log("Adult.");
+            break;
+        default:
+            console.log("No Answer.");
+            break;
+    };
+
+
+    var age = 18;
+
+    switch(age){
+        case 13:
+            console.log("Child");
+            break;
+        case 18:
+            console.log("Adult.");
+            break;
+        default:
+            console.log("No Answer.");
+            break;
+    };
 
 /*
 	===============================================
