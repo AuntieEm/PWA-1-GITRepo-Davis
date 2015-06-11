@@ -115,42 +115,42 @@ console.log('------ Debugging ----------');
 		console.log("nested conditional: 1st IF returned false");
 	};
 
-/*
+
     //Example4:
 	var value1 = 'Sunny';
 	var value2 = 10;
 	
-	var mood = function(weather, waves)
+	var mood = function(weather, waves){
 
 		if (weather = "Sunny"){
 			if (waves === 10){
-				Mood = 'PUMPED';
-			}else if ((wave < 9) && (waves >= 5)){
-				Mood = 'mellow';			
+                Mood = 'PUMPED';
+			}else if ((waves < 9) && (waves >= 5)){
+                Mood = 'mellow';
 			}else{
-				Mood = 'bummed';
-			};	
+                Mood = 'bummed';
+			};
 	
 		}else if (weather === 'Overcast'){
-			if ((wave <= 10) !! (waves >= 7)){
-				Mood = "JACKED UP";
+			if ((waves <= 10) || (waves >= 7)){
+                Mood = "JACKED UP";
 			}else if ((waves <= 6) && (waves >= 3)){
-				Mood = 'totally bummed';			
-			)else{
-				Mood = 'not happy';
-			};
+                Mood = 'totally bummed';
+            }else{
+             Mood = 'not happy';
+            };
+        }else{
+        Mood = 'sad';
+        };
 
-		}else{
-			Mood = 'sad'
-		};
-
-		return Moood;
-	};
+		return Mood;
+    };
 
 	var moodType = mood(value1, value2);
 	console.log('mood: ', moodType);
 
 
+/*
     //Example5:
 
     var myNums = [1, 2, 3, 4, 5];
