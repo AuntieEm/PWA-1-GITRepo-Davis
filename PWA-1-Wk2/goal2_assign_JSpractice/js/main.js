@@ -81,21 +81,28 @@
         return myArray.length;
     };
 
-    console.log(wordCount(myArray));
+    console.log("There are " + wordCount(myArray) + " in the string.");
 
     //--------------------------------------------------------
     console.log("4. sentence char count");
 
-        //PUT FUNCTION HERE
+        function charCount(ipsum){
+            return ipsum.length;
+        };
 
-    console.log(charCount(ipsum));
+    console.log("There are " + charCount(ipsum) + " characters in the string.");
 
     //--------------------------------------------------------
     console.log("5. how many vowels in a word");
 
-        //PUT FUNCTION HERE
+    var word = "\'JavaScript\'";
 
-    console.log(vowelsInWord('JavaScript'));
+        function vowelsInWord(word){
+            var m = word.match(/[aeiou]/gi);
+            return m === null ? 0 : m.length;
+        };
+
+    console.log("There are " + vowelsInWord(word) + " vowels in the word " + word + ".");
 
     //--------------------------------------------------------
     console.log("6. find number and create an array of even or odd numbers");
