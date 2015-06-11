@@ -92,11 +92,11 @@ console.log('------ Debugging ----------');
 	var name = 'james', course = 'PWA1', month = 3;
 	console.log ("name: ", name + " / course: ", course + " / month: ", month);
 
-/*
+
     //Example2:
 	//string w/ escape charaters and mixed single/double quotes
-	var phrase = 'he's in ' + ' "PWA1' ";
-	console.log("phase 4: ", phr@se);
+	var phrase = 'he\'s in ' + ' "PWA1" ';
+	console.log("phase 4: ", phrase);
 
 
     //Example3:
@@ -116,7 +116,7 @@ console.log('------ Debugging ----------');
 		console.log("nested conditional: 1st IF returned false);
 	};
 
-
+/*
     //Example4:
 	var value1 = 'Sunny';
 	var value2 = 10;
