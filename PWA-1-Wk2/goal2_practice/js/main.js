@@ -516,6 +516,13 @@ console.log('------ MORE Conditionals - Switch ----------');
 
 console.log('------ MORE Functions ----------');
 
+    var bondsCars = function(){
+        return ['ferrari','lambo','vwBug'];
+    };
+
+    var cars = bondsCars(); //will return the array of values
+    console.log("James Bond cars,",cars);
+
 
 	/* 
 		Self Executing Functions
@@ -533,7 +540,13 @@ console.log('------ MORE Functions ----------');
 				var fn = (function(){})();	
 	*/	
 
+    var fn = function(){};
 
+    fn(); //calls the specific funciton and executes the code inside the function
+
+    (function(){
+        
+    })();
 /*
 	===============================================
 	For / While Loop, basic logic structure
