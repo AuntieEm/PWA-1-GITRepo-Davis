@@ -107,9 +107,17 @@
     //--------------------------------------------------------
     console.log("6. find number and create an array of even or odd numbers");
 
-        //PUT FUNCTION HERE
+    var arr = [31,22,4,67,83,6,5,4];
+    var boolean = false;
+        function findNum(arr, boolean){
+          if (boolean == false){
+              return oddArray = [arr[0], arr [3], arr[4]];
+          }else{
+              return evenArray = [arr[1], arr[2], arr[5], arr[7]];
+          }
+        };
 
-    console.log(findNum([31,22,4,67,83,6,5,4]));
-    console.log(findNum([31,22,4,67,83,6,5,4], false));
+    console.log("Find even numbers " + findNum([31,22,4,67,83,6,5,4]));
+    console.log("Find odd numbers " + findNum([31,22,4,67,83,6,5,4], false));
 
 })();
