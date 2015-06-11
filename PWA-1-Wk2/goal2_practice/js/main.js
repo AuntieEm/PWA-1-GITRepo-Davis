@@ -614,7 +614,7 @@ console.log('------ MORE Functions ----------');
 */
 console.log('------ While / Loop ----------');
 
-    var bottlesOfBeer = 99;
+    var bottlesOfBeer = 10;
 
     while(bottlesOfBeer > 0){
         console.log(bottlesOfBeer + ' bottles of beer on the wall. ' + bottlesOfBeer + ' bottles of beer.');
@@ -648,6 +648,9 @@ console.log('------ While / Loop ----------');
 
 console.log('------For Loop ----------');
 
+    for (var beers = 10; beers > 0; beers--){
+        console.log(beers + ' bottles of beers on the wall.')
+    };
 
 	/* 
 		array.Length
