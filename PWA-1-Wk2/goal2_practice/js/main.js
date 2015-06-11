@@ -747,8 +747,15 @@ console.log('------For Loop ----------');
 			- in the loop just console.log the values
 ********************************************/
 
+var cartoons = ["Superman", "Batman", "Wolverine", "Iceman"];
 
+    for (var i=0; i<cartoons.length; i++){
+        console.log(cartoons[i]);
+    };
 
+    for (var i= 0,j=cartoons.length;i<j;i++){
+        console.log(cartoons[i]);
+    };
 /*******************************************
     STUDENT ACTIVITY 8: (More Practice):
 
