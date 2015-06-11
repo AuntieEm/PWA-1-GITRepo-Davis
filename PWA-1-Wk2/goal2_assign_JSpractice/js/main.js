@@ -120,4 +120,6 @@
     console.log("Find even numbers " + findNum([31,22,4,67,83,6,5,4]));
     console.log("Find odd numbers " + findNum([31,22,4,67,83,6,5,4], false));
 
+
+
 })();
