@@ -345,7 +345,7 @@ console.log('------ MORE Object examples - Objects/Functions ----------');
 console.log('------------ DOCUMENT OBJECT MODEL -------------------');
 
 //Window DOM object
-/*
+
  console.log(window);
  console.log(window.location);
  console.log(window.history);
@@ -355,7 +355,7 @@ console.log('------------ DOCUMENT OBJECT MODEL -------------------');
  console.log(document);
  console.log(document.body);
  console.log(document.head);
- */
+
 
 
 /*
@@ -376,8 +376,9 @@ console.log('------------ DOCUMENT OBJECT MODEL -------------------');
 
 console.log('------------ getElementById -------------------');
 
-
-
+    var playbox = document.getElementById('playbox');
+    console.log(playbox);
+    playbox.style.backgroundColor = 'Red';
 
 /*
 	==================================================================
@@ -389,7 +390,14 @@ console.log('------------ getElementById -------------------');
 
 console.log('------------ getElementsByTagName -------------------');
 
+    var anchors = document.getElementsByTagName('a');
+    console.log(anchors);
 
+    console.log(anchors[1]);
+
+    for (i=0, max=anchors.length; i<max;i++){
+        console.log(anchors[i]);
+    }
 
 
 /*
@@ -480,6 +488,21 @@ console.log('------------ querySelectorAll -------------------');
 */
 
 console.log('------------ Manipulating CSS Classes -------------------');
+
+
+
+/*
+    ==================================================================
+    Manipulating HTML
+    ------------------------------------------------------------------
+        HTML elements also have a property called "inner HTML"
+        .innerHTML is both a getter and a setter property (using strings)
+*/
+
+    console.log('------------ Manipulating HTML -------------------');
+
+
+
 
 
 /*
