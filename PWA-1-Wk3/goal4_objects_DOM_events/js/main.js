@@ -221,7 +221,7 @@ var gradeAvg = function(obj){
 
     for (var i = 0, j = obj.students.length; i < j; i++) {                   //todo      create a for loop variable i with value of 0 and variable j with value of 'obj' look at student's array and pull out what the length is then use a condition that compares i to j if it's less than. and increase variable i by 1.
         count++;                                                            //todo      increase variable count by 1 to count how many times the loop runs
-        total = toatl + obj.students[i]['GPA'];                             //todo      total       calculate what the toatl is each time if cycles through the loop. get grand total of all the gpas together. total = total plus the student's gpa use index i of students. grab their gpa and add to the accumulating total.
+        total = total + obj.students[i]['GPA'];                             //todo      total       calculate what the toatl is each time if cycles through the loop. get grand total of all the gpas together. total = total plus the student's gpa use index i of students. grab their gpa and add to the accumulating total.
     };
     return total/count;                                                     //todo      return the total but divide it by the count which will give us the average.
 
@@ -239,6 +239,13 @@ console.log('Average Grade: ', gradeAvg(obj1));
 	}
 */
     console.log("---------- Object - For In Loop ----------------");
+
+    var students = {name: "James Bond", gender: "male", job: "student"};            //todo      variable called students. key of name with value of james bond. key of gender with value of male. key of job with value of student.
+
+    for (var key in students){                                      //todo      variable key and pass into it students
+        console.log('Key name: ', key);                             //todo      output each of the key names.
+        console.log('Value of the key[',key,']:',students[key]);    //todo      output the value of each key
+    };
 
 
 
@@ -275,7 +282,11 @@ console.log('Average Grade: ', gradeAvg(obj1));
 */
     console.log('------ Objects - Converting Datatypes ----------');
 
-
+    var myNum = 1;                                              //todo      creat a variable called myNum with a value of 1
+    myString = String(myNum);                                   //todo      convert myNum into a string.
+    console.log('myString:', typeof myString, myString);        //todo      output the value type of myString
+    myBool = Boolean(myString);                                 //todo      1 = true 0 = false      will it see it as a string?
+    console.log('myBool: ,', typeof myBool, myBool);            //todo      output boolean value of myBool.
 
 /*
 	- because these values act as objects, the data types also have methods and 
@@ -286,17 +297,41 @@ console.log('Average Grade: ', gradeAvg(obj1));
 
 // #1 - shows string length
 
+    myStr = 'OMG';
+    console.log(myStr.length);
+
 
 // #2 - shows array length
-	
+	myArr = [6,10];
+    console.log(myArr.length);
 
 // #3 - shows and array of objects, inside of an object length
-	
+	var obj1 = {
+        schoolName: 'Full Sail',
+        address: '123 University Blvd',
+        studentCount: 16000,
+        students: [
+            {name: 'Jane Doe', GPA:2.6, classes:['PWA1','ARD']},
+            {name: 'Albert Einstein', GPA: 4.0},
+            {name: 'James Bond', GPA: 3.9}
+        ]
+    };
+
+    console.log('number of object fields', obj1.students.length);
+
 
 console.log('------ MORE Object examples - Objects/Functions ----------');
 
 // showing a function call and creating a method
 
+    var fn = function(name, course){
+        return{
+            sayHi: function(){
+                console.log("My name is " + name + "I am in course " + course);
+            }
+        }
+    };
+    fn("JamesBond","PWA1").sayHi();             //todo a method that will call a function and run it right away.
 
 
 /*
