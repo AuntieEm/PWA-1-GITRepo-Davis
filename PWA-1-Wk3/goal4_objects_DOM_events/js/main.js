@@ -200,7 +200,7 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
     console.log(obj1[fieldName1]);
 
     console.log("James Bond's GPA: ", obj1.students[2].GPA);
-    console.log("James Bond's GPA: ", obj1['students'][2]['GPA']); 
+    console.log("James Bond's GPA: ", obj1['students'][2]['GPA']);
 
 
 /* ----------------------------------------------------------------------------
@@ -215,7 +215,19 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
     2.  console.log the average grade by calling the gradeAvg method.
 ----------------------------------------------------------------------------- */
 
+var gradeAvg = function(obj){
+    var count = 0;
+    var total = 0;
 
+    for (var i = 0, j = obj.students.length; i < j; i++) {                   //todo      create a for loop variable i with value of 0 and variable j with value of 'obj' look at student's array and pull out what the length is then use a condition that compares i to j if it's less than. and increase variable i by 1.
+        count++;                                                            //todo      increase variable count by 1 to count how many times the loop runs
+        total = toatl + obj.students[i]['GPA'];                             //todo      total       calculate what the toatl is each time if cycles through the loop. get grand total of all the gpas together. total = total plus the student's gpa use index i of students. grab their gpa and add to the accumulating total.
+    };
+    return total/count;                                                     //todo      return the total but divide it by the count which will give us the average.
+
+};
+
+console.log('Average Grade: ', gradeAvg(obj1));
 
 
 /* ===============================================================
