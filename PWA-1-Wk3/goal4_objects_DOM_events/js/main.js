@@ -176,8 +176,31 @@ STUDENT ACTIVITY 1:
 
 console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
+// objects w/ array
 // this is integrating multiple data types - object with an array of objects
 
+    var obj1 = {
+        schoolName:'Full Sail',
+        address: '123 University Blvd',
+        studentCount: 16000,
+        students:[
+            {name:'Jane Doe', GPA:2.6, classes:['PWA1','PWA2']},
+            {name: 'Albert Einstein', GPA:4.0},
+            {name: 'James Bond', GPA:3.9}
+        ]
+    };
+
+    console.log(obj1.schoolName);           //dot syntax
+    console.log(obj1['schoolName']);        //index syntax
+
+    var newCnt = 'studentCount';
+    console.log(obj1[newCnt]);
+
+    var fieldName1 = "address";
+    console.log(obj1[fieldName1]);
+
+    console.log("James Bond's GPA: ", obj1.students[2].GPA);
+    console.log("James Bond's GPA: ", obj1['students'][2]['GPA']); 
 
 
 /* ----------------------------------------------------------------------------

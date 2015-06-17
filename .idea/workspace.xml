@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3af842bf-d32c-4c3c-91bb-094ec1b46429" name="Default" comment="" />
+    <list default="true" id="3af842bf-d32c-4c3c-91bb-094ec1b46429" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PWA-1-Wk3/goal4_objects_DOM_events/js/main.js" afterPath="$PROJECT_DIR$/PWA-1-Wk3/goal4_objects_DOM_events/js/main.js" />
+    </list>
     <ignored path="PWA-1-GITRepo-Davis.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PWA-1-Wk3/goal4_objects_DOM_events/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.023006136" vertical-offset="2205" max-vertical-offset="7860">
-              <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9539877" vertical-offset="2408" max-vertical-offset="8205">
+              <caret line="202" column="67" selection-start-line="202" selection-start-column="67" selection-end-line="202" selection-end-column="67" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -411,27 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PWA-1-Wk2/goal2_assign_duel2/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15463917" vertical-offset="0" max-vertical-offset="1455">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PWA-1-Wk2/goal3_assign_debug_v2/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1329395" vertical-offset="748" max-vertical-offset="1980">
-          <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1434079552000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PWA-1-Wk2/goal3_bug_scope/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.8552437" vertical-offset="4873" max-vertical-offset="5550">
@@ -442,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PWA-1-Wk3/goal4_objects_DOM_events/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023006136" vertical-offset="2205" max-vertical-offset="7860">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9539877" vertical-offset="2408" max-vertical-offset="8205">
+          <caret line="202" column="67" selection-start-line="202" selection-start-column="67" selection-end-line="202" selection-end-column="67" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
