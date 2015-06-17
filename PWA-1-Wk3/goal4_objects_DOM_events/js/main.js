@@ -538,14 +538,14 @@ console.log('------------ Manipulating Attributes setAttribute / getAttribute --
         navLinks[i].firstChild.setAttribute('href','http://google.com');
     };
 
-    var navLinks = document.querySelectorAll('#nav a');
-    console.log(navLinks[1].innerHTML);
-
-    navLinks[1].innerHTML = 'This link rocks!'
-
-    for (var i = 0, max = navLinks.length; i<max; i++){
-        navLinks[i].innerHTML = 'Click Me'+i;
-    }
+    //var navLinks = document.querySelectorAll('#nav a');
+    //console.log(navLinks[1].innerHTML);
+    //
+    //navLinks[1].innerHTML = 'This link rocks!'
+    //
+    //for (var i = 0, max = navLinks.length; i<max; i++){
+    //    navLinks[i].innerHTML = 'Click Me'+i;
+    //}
 /*
 	==================================================================
 	Replacing an HTML container with new HTML
@@ -594,6 +594,16 @@ console.log('------------ DOM Events Ex 1-------------------');
 
 var nav = document.querySelectorAll('#nav li a');
 
+    //for (var i=0, max=nav.length;i<max;i++){
+    //    console.log(nav[i]);
+    //
+    //    nav[i].onclick = function(e){
+    //        console.log(e);
+    //        e.preventDefault(); //todo      add to all click events.
+    //        return false;
+    //    };
+    //
+    //};
 
 /*
 // this just console.log's when a click occurs
@@ -631,25 +641,58 @@ var nav = document.querySelectorAll('#nav li a');
 
 
 console.log('------------ DOM Events Ex 2 -------------------');
-/*
+
 // this example changes the clicked link to the active class
 
+    //for (var i=0, max=nav.length;i<max; i++){
+    //    nav[i].onclick = function(e){
+    //        for (var ii = 0, max2 = nav.length; ii < max2; ii++){
+    //            nav[ii].setAttribute('class','navitem');
+    //        };
+    //
+    //        console.log(this);
+    //        this.setAttribute('class','navitem active');
+    //
+    //        e.preventDefault();
+    //        return false;
+    //
+    //    };
+    //
+    //}
 
 
 
-*/ 
 
 
 
 console.log('------------ DOM Events Ex 3 -------------------');
-/*
+
 // a more efficient way to do the above
 
+    nav[0].setAttribute('class','navitem active');
+
+
+    for (var i=0, max=nav.length;i<max; i++){
+        nav[i].onclick = function(e){
+            //for (var ii = 0, max2 = nav.length; ii < max2; ii++){
+            //    nav[ii].setAttribute('class','navitem');
+            //};
+
+            document.querySelector('#nav li a.active').setAttribute('class','navitem');
+
+            console.log(this);
+            this.setAttribute('class','navitem active');
+
+            e.preventDefault();
+            return false;
+
+        };
+
+    }
 
 
 
 
-*/
 
 
 })(); // end wrapper

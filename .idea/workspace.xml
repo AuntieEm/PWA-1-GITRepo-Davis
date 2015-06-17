@@ -29,8 +29,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PWA-1-Wk3/goal4_objects_DOM_events/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6088957" vertical-offset="8003" max-vertical-offset="9900">
-              <caret line="560" column="119" selection-start-line="560" selection-start-column="119" selection-end-line="560" selection-end-column="119" />
+            <state vertical-scroll-proportion="0.6779141" vertical-offset="9758" max-vertical-offset="10545">
+              <caret line="680" column="52" selection-start-line="680" selection-start-column="52" selection-end-line="680" selection-end-column="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -286,7 +286,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -352,7 +352,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1995">
           <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -389,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PWA-1-Wk3/goal4_objects_DOM_events/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6088957" vertical-offset="8003" max-vertical-offset="9900">
-          <caret line="560" column="119" selection-start-line="560" selection-start-column="119" selection-end-line="560" selection-end-column="119" />
+        <state vertical-scroll-proportion="0.6779141" vertical-offset="9758" max-vertical-offset="10545">
+          <caret line="680" column="52" selection-start-line="680" selection-start-column="52" selection-end-line="680" selection-end-column="52" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
