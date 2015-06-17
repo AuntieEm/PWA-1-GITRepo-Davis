@@ -452,6 +452,16 @@ console.log('------------ querySelectorAll -------------------');
     */
     console.log('------------ TRAVERSAL -------------------');
 
+    var apple = document.querySelectorAll('#nav li a')[2];      //todo      document object, query selector all tell it to select the navagitor link for apple and navigate to the item in the 2nd index.
+    console.log(apple);
+    console.log(apple.parentNode);
+    console.log((apple.parentNode.parentNode.parentNode).childNodes);
+            //navigate sideways = siblings
+    console.log((apple.parentNode.parentNode.parentNode).nextSibling);
+
+
+    //select something and then move around from there.
+
 
 
 
