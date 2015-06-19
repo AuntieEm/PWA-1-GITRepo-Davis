@@ -282,7 +282,7 @@ console.log('Average Grade: ', gradeAvg(obj1));
 */
     console.log('------ Objects - Converting Datatypes ----------');
 
-    var myNum = 1;                                              //todo      creat a variable called myNum with a value of 1
+    var myNum = 1;                                              //todo      create a variable called myNum with a value of 1
     myString = String(myNum);                                   //todo      convert myNum into a string.
     console.log('myString:', typeof myString, myString);        //todo      output the value type of myString
     myBool = Boolean(myString);                                 //todo      1 = true 0 = false      will it see it as a string?
@@ -538,14 +538,14 @@ console.log('------------ Manipulating Attributes setAttribute / getAttribute --
         navLinks[i].firstChild.setAttribute('href','http://google.com');
     };
 
-    //var navLinks = document.querySelectorAll('#nav a');
-    //console.log(navLinks[1].innerHTML);
-    //
-    //navLinks[1].innerHTML = 'This link rocks!'
-    //
-    //for (var i = 0, max = navLinks.length; i<max; i++){
-    //    navLinks[i].innerHTML = 'Click Me'+i;
-    //}
+    var navLinks = document.querySelectorAll('#nav a');
+    console.log(navLinks[1].innerHTML);
+
+    navLinks[1].innerHTML = 'This link rocks!'
+
+    for (var i = 0, max = navLinks.length; i<max; i++){
+        navLinks[i].innerHTML = 'Click Me'+i;
+    }
 /*
 	==================================================================
 	Replacing an HTML container with new HTML
